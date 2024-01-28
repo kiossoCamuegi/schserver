@@ -8,7 +8,7 @@ const bodyParser = require("body-parser");
 const session = require("express-session");
 const passport = require("passport");
 
-mongoose.connect(process.env.DATABASE_URL ,{useNewUrlParser:true})
+mongoose.connect("mongodb+srv://kiossocamuegi:r91KIAaG0tgIugWu@cluster0.jenjepu.mongodb.net/" ,{useNewUrlParser:true})
 const DB = mongoose.connection;
 
 try {
