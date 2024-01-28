@@ -21,7 +21,7 @@ router.get("/", async(req, res)=>{
 
 
 //geting name
-router.get("/", async(req, res)=>{
+router.get("/name", async(req, res)=>{
    res.send("Hello my best friend how are you today  !");
 });
 
