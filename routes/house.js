@@ -16,7 +16,7 @@ const upload = multer();
 
 //geting houses
 router.get("/", async(req, res)=>{
-   res.send("Hello to kiosso api !");
+   res.send("Hello to kiosso api !!");
 });
 
 
