@@ -37,6 +37,6 @@ app.use(bodyParser.json());
 app.use('/images', express.static(__dirname+'/images'));
 app.use(Houses); 
  
-app.listen(4000, ()=>{
+app.listen(4930, ()=>{
     console.log("KIOSSO server IS Running");
 });
