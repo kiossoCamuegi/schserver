@@ -18,6 +18,13 @@ router.get("/", async(req, res)=>{
 });
 
 
+
+
+//geting name
+router.get("/", async(req, res)=>{
+   res.send("Hello my best friend how are you today  !");
+});
+
 //geting all
 router.get("/schools", async(req, res)=>{ 
    try {
