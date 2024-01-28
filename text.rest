@@ -1,18 +1,15 @@
 ###
-POST http://localhost:4000/posthome
+POST http://localhost:4000/postschool
 Content-Type: application/json
 
 {
-    "title": "CASA 1", 
-    "price": "$900.000",
-    "description": "SOME RANDOM HOUSE AT UK",  
-    "youtube": "https://i.ytimg.com/vi/qyaJmLe5vYo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqGDsaueOYwmbxw9jw1reWYMB1Qg",
-    "usercode": "12", 
-    "code": "3783646467",
-    "location": "Angola luanda",
-    "type": "1987d9"
+    "name": "Escola privada 940498", 
+    "location": "Kilamba kiaxi , Luanda",
+    "email": "escola13@gmail.com",  
+    "phone": "9839376486363",
+    "type": 2 
 }
 
 
 ###
-DELETE  http://localhost:5000/delete/653fc149644bd19f55ffe2e0
+GET http://localhost:4000/schools
